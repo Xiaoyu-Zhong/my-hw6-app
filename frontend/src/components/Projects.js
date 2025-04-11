@@ -23,6 +23,16 @@ function Projects() {
                 { hwName: 'HWSet1', current: 30, total: 100 },
                 { hwName: 'HWSet2', current: 10, total: 50 }
             ]
+        },
+        {
+            id: 3,
+            name: 'Project Name 3',
+            users: ['Grace', 'Heidi'],
+            joined: false,
+            hwSets: [
+                { hwName: 'HWSet1', current: 20, total: 100 },
+                { hwName: 'HWSet2', current: 20, total: 50 }
+            ]
         }
     ]);
 
