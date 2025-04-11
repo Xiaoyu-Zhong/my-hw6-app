@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, jsonify
 
-app = Flask(__name__, static_folder='../frontend/build', static_url_path='/')
+app = Flask(__name__, static_folder="./frontend/build", static_url_path="/")
 
 # 1) checkIn_hardware(projectId, qty)
 @app.route('/checkin/<int:projectId>/<int:qty>', methods=['GET'])
